@@ -17,7 +17,7 @@ RUN apt-get install -y --no-install-recommends \
     && apt-get clean
 
 RUN cd /tmp \
-    && git clone https://github.com/scarygliders/X11RDP-o-Matic.git \
+    && git clone https://github.com/maxwhale/X11RDP-o-Matic \
     && cd X11RDP-o-Matic \
     && ./X11rdp-o-matic.sh --justdoit --withsound \
     && cd .. \
